@@ -19,7 +19,7 @@ public class Main {
                     tambahDataMahasiswa(scanner, daftarMahasiswa);
                     break;
                 case 2:
-                    Mahasiswa.tampil1Universitas();
+                    Mahasiswa.tampilUniversitas();
                     System.out.println("Data Mahasiswa:");
                     for (Mahasiswa mahasiswa : daftarMahasiswa) {
                         mahasiswa.tampilDataMahasiswa();
